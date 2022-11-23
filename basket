@@ -1,0 +1,343 @@
+#block
+{
+   
+    width: 1100px;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    padding: 50px 0;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: rgb(0, 0, 0);
+    background-color: #DCF4FF;
+    
+}
+
+#enrol
+{
+    
+    width:180px;
+    text-align: left;
+   
+    margin: auto;
+    padding: 50px 0;
+   
+    border-color: rgb(0, 0, 0);
+    background-color: #DCF4FF;
+}
+
+#titleweb
+{
+    text-align: center;
+    font-size: 40px;
+
+}
+
+
+
+#line1
+{
+    height: 5px;
+    width: 1070px;
+    margin: auto;   
+    background-color: black;
+    color: #000;
+}
+
+div.flex_container 
+{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1070px; 
+  margin: auto;
+} 
+
+#blockname
+{
+
+    width:500px;
+    text-align: left;
+
+    margin: auto;
+    padding: 0 0;
+    border-color: rgb(0, 0, 0);
+
+
+}
+
+#blockprice
+{
+
+    width:100px;
+    text-align: center;
+
+    margin: auto;
+    padding: 0 0;
+    border-color: rgb(0, 0, 0);
+  
+
+}
+
+#blocknum
+{
+
+    width:50px;
+    text-align: center;
+
+    margin: auto;
+    padding: 0 0;
+    border-color: rgb(0, 0, 0);
+
+
+}
+
+#blocktotal
+{
+
+    width:100px;
+    text-align: center;
+
+    margin: auto;
+    padding: 0 0;
+    border-color: rgb(0, 0, 0);
+    
+
+}
+
+#blockdelete
+{
+
+    width:100px;
+    text-align: right;
+
+    margin: auto;
+    padding: 0 0;
+    border-color: rgb(0, 0, 0);
+    
+
+}
+
+
+#blocktogether
+{
+    width: 1060px;
+    text-align: right;
+
+    margin: auto;
+    padding: 0 0;
+    border-color: rgb(0, 0, 0);
+    background-color: #FFECDA;
+    
+
+}
+
+#Order
+{
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    border-style: solid;
+    background-color: #D4A5A5;
+}
+
+/* header */
+*{
+    font-family:'Work Sans', sans-serif'Roboto';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    text-decoration: none;
+}
+nav{
+    position:fixed;
+    width: 100%;
+}
+nav .image{
+    width: 100%;
+    background-color: #A6D0E4;
+    padding: 1%;
+}
+nav .image .Header-2{
+    width: 90%;
+    margin:auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+nav .image .Header-2 i{
+    margin: 0 11px;
+    list-style: none;
+    font-size: 27px;
+    margin-top:15px ;
+}
+
+nav .navbar{
+    background-color: #E5F1F7;
+    padding: 0.25%;
+}
+nav .navbar .Header-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 1%;
+    gap: 25px;
+} 
+nav .navbar .Header-1 li{
+    margin: 0 8px;
+    list-style: none;
+} 
+nav .image img{
+    width: 25%;  
+}
+.grid-container {
+  display: grid;
+
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+#displayPic img{
+   width: 10%;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='maincart.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- ref: https://www.w3schools.com/icons/fontawesome_icons_webapp.asp -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- ref: https://www.w3schools.com/icons/google_icons_image.asp -->
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/headers/">
+    <script src='main.js'></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div class="image">
+            <header class="Header-2">
+                <a href="#icon"><img src="pic/logo.png" /></a>
+                <a href="#profile"><i id="user" class="fa fa-user-circle-o"></i></a>
+                <a href="#shop"><i id="cart" class="material-icons">local_mall</i></a>
+                <a href="#find"><i id="search" class="fa fa-search"></i></a>
+            </header>
+        </div>
+        <div class="navbar">
+            <header class="Header">
+                <ul class="Header-1">
+                    <li><a href="#หน้าแรก">หน้าแรก</a></li>
+                    <li><a href="#นิตยสาร">นิตยสาร</a></li>
+                    <li><a href="#การ์ตูน">การ์ตูน</a></li>
+                    <li><a href="#นิยาย">นิยาย</a></li>
+                </ul>
+            </header>
+        </div>
+
+
+
+        <br><br>
+        <div id="titleweb">สินค้าในตะกร้า</div> <br><br>
+        <div id="bg">
+            <div id="block">
+                <!-- หัวข้อตาราง -->
+                &nbsp;
+                รายการสินค้า &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                ราคาต่อเล่ม &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                จำนวน &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+                ราคารวม &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                แก้ไข
+                <br><br>
+                <hr id="line1">
+                <!-- จบหัวข้อตาราง -->
+                <br>
+                <div class="flex_container">
+
+                    <!-- รายชื่อสินค้า -->
+                    <div id="blockname">
+                        ตัวอย่าง หนังสือพ่อมดผจญในป่าหิมพานต์ <br><br>
+                        ตัวอย่าง หนังสือพ่อมดผจญในป่าหิมพานต์ <br><br>
+                        ตัวอย่าง หนังสือพ่อมดผจญในป่าหิมพานต์ <br><br>
+                        ตัวอย่าง หนังสือพ่อมดผจญในป่าหิมพานต์ <br><br>
+                    </div>
+
+                    <!-- จบรายชื่อสินค้า -->
+
+                    <!-- ราคาเล่ม -->
+                    <div id="blockprice">
+                        150 <br><br>
+                        299 <br><br>
+                        555 <br><br>
+                        253 <br><br>
+                    </div>
+
+                    <!-- จบราคาเล่ม -->
+
+                    <!-- จำนวนเล่ม -->
+                    <div id="blocknum">
+                        5 <br><br>
+                        3 <br><br>
+                        1 <br><br>
+                        1 <br><br>
+                    </div>
+
+                    <!-- จบจำนวนเล่ม -->
+
+
+                    <!-- จำนวนเล่ม -->
+                    <div id="blocktotal">
+                        750 <br><br>
+                        897 <br><br>
+                        555 <br><br>
+                        253 <br><br>
+                    </div>
+
+                    <!-- จบจำนวนเล่ม -->
+
+
+                    <!-- จำนวนเล่ม -->
+                    <div id="blockdelete">
+                        ลบ <br><br>
+                        ลบ <br><br>
+                        ลบ <br><br>
+                        ลบ <br><br>
+                    </div>
+
+                    <!-- จบจำนวนเล่ม -->
+
+                    <hr id="line1">
+
+
+                </div>
+                <br>
+                <!-- ราคารวมทุกเล่ม -->
+                <div id="blocktogether">
+                    <br>
+                    ราคารวม   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;123456 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;บาท&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <br><br>
+
+                </div>
+                <!-- จบราคารวมทุกเล่ม -->
+                <br>
+
+                <input id = "Order" type="submit" value="สั่งซื้อสินค้า">
+            </div>
+        </div>
+
+
+
+    </nav>
+
+    <body>
